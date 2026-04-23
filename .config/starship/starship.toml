@@ -1,0 +1,11 @@
+format = """
+$directory\
+$git_branch\
+$character"""
+
+[character]
+success_symbol = '[ ](bold 172)'
+error_symbol = '[ ](bold red)'
+
+[git_branch]
+format = '[$symbol$branch(:$remote_branch)]($style) '

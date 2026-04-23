@@ -1,0 +1,5 @@
+modmap:
+  - name: CapsLock to Super
+    remap:
+      CapsLock: Super_L
+
