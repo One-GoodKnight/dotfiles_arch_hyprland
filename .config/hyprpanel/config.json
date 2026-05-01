@@ -459,5 +459,6 @@
   "bar.workspaces.workspaceMask": false,
   "theme.bar.buttons.windowtitle.enableBorder": false,
   "theme.bar.menus.monochrome": false,
-  "theme.bar.transparent": false
+  "theme.bar.transparent": false,
+  "wallpaper.enable": false
 }

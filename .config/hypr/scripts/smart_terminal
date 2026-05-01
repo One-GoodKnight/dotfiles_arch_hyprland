@@ -1,0 +1,6 @@
+#!/bin/bash
+
+ACTIVE_CLASS=$(hyprctl activewindow -j | jq -r '.class')
+if [ "$ACTIVE_CLASS" != "kitty" ]; then
+    kitty
+fi
