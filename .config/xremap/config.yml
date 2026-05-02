@@ -1,5 +1,7 @@
 modmap:
-  - name: CapsLock to Super
+  - name: CapsLock to Super/Esc
     remap:
-      CapsLock: Super_L
-
+      CapsLock:
+        held: Super_L
+        alone: Esc
+        alone_timeout_millis: 200
