@@ -4,4 +4,8 @@ modmap:
       CapsLock:
         held: Super_L
         alone: Esc
-        alone_timeout_millis: 200
+        alone_timeout_millis: 250
+  - name: Win to left click
+    remap:
+      Super_L: BTN_LEFT
+      Super_R: BTN_RIGHT
